@@ -5,7 +5,17 @@
 #Feature Exploration，Engineering and Cleaning
 
 #Feature Engineering
+
 .1 name length
 .2 has cabin
 .3 combine SibSp(后代) and Parch（父母）into FamilySize
-.4 
+.4 isalone
+.5 embarked （Fill the 'S' values for the all NULLS in this column）
+.6 fare （Fill the median of the values for the all NULLS in this column）
+.7 categoricalage (NULLS根据（平均值+/-标准值）的范围随机取，5岁一个分类段)
+.8 title （取称呼，将所有不普通的称呼标记为'Rare'）
+
+将以上特征映射成数值型
+#map()将函数作用于Series上每一个元素；applymap()将函数作用于DataFrame的每一个元素上;apply()将函数作用于行或列操作
+
+
