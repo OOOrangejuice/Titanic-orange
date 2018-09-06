@@ -1,0 +1,11 @@
+#Orange
+
+#Ensemble models
+
+#Feature Exploration£¬Engineering and Cleaning
+
+#Feature Engineering
+.1 name length
+.2 has cabin
+.3 combine SibSp(ºó´ú) and Parch£¨¸¸Ä¸£©into FamilySize
+.4 
